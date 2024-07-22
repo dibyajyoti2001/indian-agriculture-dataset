@@ -18,7 +18,7 @@ To install and set up the project:
 
 ## Output
 
-![image alt](https://github.com/dibyajyoti2001/indian-agriculture-dataset/blob/64c1fc170148e4e9b1e04005be16ed3c9a2d28e2/Avg%20Yield%20and%20Cultivation%20Area.png)(https://github.com/dibyajyoti2001/indian-agriculture-dataset/blob/64c1fc170148e4e9b1e04005be16ed3c9a2d28e2/Crop%20dataset%201.png)
+![image alt](https://github.com/dibyajyoti2001/indian-agriculture-dataset/blob/64c1fc170148e4e9b1e04005be16ed3c9a2d28e2/Avg%20Yield%20and%20Cultivation%20Area.png https://github.com/dibyajyoti2001/indian-agriculture-dataset/blob/64c1fc170148e4e9b1e04005be16ed3c9a2d28e2/Crop%20dataset%201.png)
 
 ## Contributing
 1. Fork the repository.

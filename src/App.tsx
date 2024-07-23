@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import AvgCropProduction from "./components/AvgCropProduction.tsx";
+import MaxCropProduction from "./components/MaxCropProduction.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      {/* Add a Project Headline */}
+      <h1>Indian Agriculture Dataset</h1>
+      {/* Create a container to display that two component */}
+      <div className="container">
+        <div className="component">
+          {/* MaxCropProduction component to see the Maximum & Minimum Crop production of that year */}
+          <MaxCropProduction />
+        </div>
+        <div className="component">
+          {/* AvgCropProduction component to see the Average Yield & Cultivation Area of the Crop between 1950 - 2020 */}
+          <AvgCropProduction />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

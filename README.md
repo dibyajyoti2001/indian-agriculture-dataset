@@ -10,11 +10,11 @@ To install and set up the project:
 3. Choose `React`.
 4. Choose `Typescript`.
 5. Go to your project directory using the `cd` command.
-6. Run `npm install`.
+6. Run `yarn install`.
 
 ## How to Build/Run/Start
-- To build the project: Run `npm run build`.
-- To run/start the project: Run `npm run dev`.
+- To build the project: Run `yarn run build`.
+- To run/start the project: Run `yarn run dev`.
 
 ## Output
 
